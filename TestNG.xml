@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking Test Suite" >
+
+    <test name="BankAccountTransferTest">
+        <classes>
+            <class name="com.bank.test.controller.BankAccountControllerTest"/>
+            <class name="com.bank.test.dao.TransactionDaoTest"/>
+            <class name="com.bank.test.integration.ConcurrentlyTransactionCreationAndExecutionTest"/>
+            <class name="com.bank.test.integration.ConcurrentlyTransactionCreationTest"/>
+            <class name="com.bank.test.service.TransactionsServiceTest"/>
+            
+        </classes>
+    </test>
+</suite>
